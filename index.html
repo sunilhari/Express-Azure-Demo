@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Voice Your Brand - Sample Static HTML Site</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+            <h1>Voice Your Brand - Sample Static HTML Site</h1>
+            <hr/>
+        </div>
+    </div>
+    <!-- Wrap the rest of the page in another container to center all the content. -->+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-16 col-sm-10">
+                <img class="img-rectangle" src="https://newsroom.rei.com/content/1102/images/REI_OptOutside_Me_Poster_low.jpg" alt="REI Optoutside" height="400">
+                <h2>Quick Survey for brands that we need to carry</h2>
+                <p><b> More language</p></b>
+
+            </div>
+
+        </div>
+    </div>
+
+    <form method="post" action="http:\\localhost:3000\feedback">
+        Store Number:<br>
+        <input type="text" id="strnbr" name="strnbr"> +
+        <br> Recommended Brand:<br>
+        <input type="text" id="recbrnd" name="recbrand">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
