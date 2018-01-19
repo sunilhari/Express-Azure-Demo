@@ -16,7 +16,7 @@ app.use(bodyParser.json())
             if (!error) {
                 // result.entries contains the entries
                 // If not all blobs were returned, result.continuationToken has the continuation token.
-                response.write('<p>Blob Token</p>');
+                response.send('<p>Blob Token</p>');
             }
             else{
                 response.send('Error')
