@@ -1,0 +1,12 @@
+
+<div class="alert alert-info" role="alert">
+  <strong>Store Number:{{storeNum}}</strong> &nbsp;Brand: {{brand}}
+</div>
+
+<h2>News</h2>
+<ul>
+    {{#each articles}}
+    <li><a href = "{{this.url}}">{{this.title}}</a></li>
+    {{/each}}
+</ul>
+
